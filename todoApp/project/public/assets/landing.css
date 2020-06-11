@@ -1,0 +1,50 @@
+body{
+    background: url(homeback.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+   }
+   #box {
+    margin-top: 90px;
+    padding: 30px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: white;
+}
+#but1,#but2 {
+    width: 403px;
+    display: flow-root;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+input[type="text"]{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 30%;
+    padding: 20px;
+    background: #cfd8dc;
+    border: 0;
+    font-size: 20px;
+    color: #989898;
+}
+#exbut{
+    margin-left: 600px;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+}
+#backbtn{
+    margin-top: -301px;
+    margin-right: 22px;
+    float: right;
+    height: 46px;
+    width: 141px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    
+}

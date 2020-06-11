@@ -1,0 +1,37 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/styletodo.css">       
+    <script src="assets/todo-list.js"></script>                                                    
+    <title>To Do List</title>
+</head>
+<body>
+    <h2>Welcome <%= names %> <br> Hope things are going GOOD! :) </h2>
+
+    
+    <div id="todo-table">
+    <form>
+            <input type="text" name="item" placeholder="Add something.." required>
+            <button type="submit">Add item</button>
+    </form>   
+    
+    <a href="/exuser"><button type="button" id="backbtn" class="btn btn-warning active">Change User</button></a>
+    <a href="/"><button type="button" id="exitbtn" class="btn btn-danger active">Exit</button></a>
+
+    <ul>
+       <% for(let i =0;i<todo.length;i++) { %>
+            <li><%= todo[i].item %></li>
+        <% } %>
+    </ul>
+</div>
+</body>
+</html>

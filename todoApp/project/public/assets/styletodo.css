@@ -1,0 +1,103 @@
+  body{
+    background: url(homeback.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: tahoma;
+    color: #989898;
+    font-family: 'Pacifico', cursive;
+}
+
+#todo-table{
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    margin-top: 81px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:#181c22;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #989898;
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}
+
+h1{
+    background: url(/assets/logo.png) no-repeat center;
+    margin-bottom: -6px;
+    text-indent: -10000px;
+    margin-top: 55px;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    
+}
+#backbtn{
+    margin-top: -273px;
+    margin-right: 22px;
+    float: right;
+    height: 46px;
+    width: 120px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    
+}
+#exitbtn{
+    margin-top: -273px;
+    margin-right: 22px;
+    float: left;
+    height: 46px;
+    width: 120px;
+    font-family: 'Pacifico', cursive;
+}
